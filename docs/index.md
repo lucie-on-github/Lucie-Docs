@@ -22,3 +22,6 @@ Your one-stop Discord bot solution.
 
 For any questions, requests or bug reports related to Lucie or this documentation, contact us in our [support server](https://lucie.gg/server).
 
+## Donate
+
+You can support our project by becoming a [patron](https://lucie.gg/patreon).
