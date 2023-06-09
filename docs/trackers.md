@@ -1,0 +1,1 @@
+Trackers are channels that display statistics about your server, e.g. a channel that shows how many people are in your server.

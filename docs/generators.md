@@ -1,0 +1,7 @@
+## /bored
+
+## /joke
+
+## /number
+
+## /uwuify
