@@ -1,6 +1,6 @@
-# Lucie Documentation
+# Lucie Docs
 
-Powered by Docsify (https://docsify.js.org/)
+Powered by Docsify ([docsify.js.org](https://docsify.js.org/))
 
 ## How to run
 
