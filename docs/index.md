@@ -2,6 +2,12 @@
 
 Your one-stop Discord bot solution.
 
+This documentation is [open source](https://github.com/lucie-on-github/Lucie-Docs), so feel free to help us improve it!
+
+## Documentation
+
+See the [getting started](getting-started) guide for more details.
+
 ## Features
 
 - Auto-translation
@@ -24,4 +30,4 @@ For any questions, requests or bug reports related to Lucie or this documentatio
 
 ## Donate
 
-You can support our project by becoming a [patron](https://lucie.gg/patreon).
+You can support Lucie by becoming a [patron](https://lucie.gg/patreon).

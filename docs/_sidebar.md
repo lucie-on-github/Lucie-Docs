@@ -5,5 +5,11 @@
 - [**Trackers**](trackers.md)
 - [**Generators**](generators.md)
 - [**Games**](games.md)
+- [**Media**](media.md)
+- [**Starboard**](starboard.md)
+- [**Reaction-roles**](reaction-roles.md)
+- [**Logs**](logs.md)
+- [**Persistent roles**](persistent-roles.md)
+- [**Auto-reactions**](auto-reactions.md)
 
 <footer id="mb-footer"></footer>
