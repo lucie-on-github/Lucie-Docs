@@ -33,3 +33,7 @@ Writing documentation and mainting a bot takes time. So it's normal that this do
 Are you seeing something like :Checkmark: or :Cross:? This means Lucie is missing the permission to use external emojis. Check your channel and role settings to make sure Lucie has this permission.
 
 Are you seeing "undefined"? This is an error. Please report it in our [Support server](https://lucie.gg/server).
+
+### "Application didn't respond"
+
+If you see this message, it means Lucie has either run into an uncaught error or crashed. If you see this, please notify us about it in our [support seever](https://lucie.gg/server) so we can quickly resolve the issue!
