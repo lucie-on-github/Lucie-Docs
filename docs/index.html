@@ -105,6 +105,23 @@
 					tabHeadings: true,
 				},
 				pagination: {},
+				plugins: [
+                    function editButton(hook, vm) {
+                        hook.beforeEach(function (html) {
+                            const url =
+                                'https://github.com/lucie-on-github/Lucie-Docs/edit/main/docs/' +
+                                vm.route.file;
+                            const editHtml = '[📝 Edit page](' + url + ')\n';
+
+                            return [
+                                editHtml,
+                                html,
+								"###### ",
+								editHtml
+						    ].join("\n");
+                        });
+                    },
+                ],
 			}
 		</script>
 		<!-- Docsify v4 -->
