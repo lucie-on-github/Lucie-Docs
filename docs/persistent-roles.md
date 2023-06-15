@@ -13,7 +13,7 @@ Toggle persistent roles on/off.
 	- Off
 </details>
 
-<details><summary>Default permissions</summary>
+<details><summary>Default required permissions</summary>
 
 - **Manage roles**
 </details>
