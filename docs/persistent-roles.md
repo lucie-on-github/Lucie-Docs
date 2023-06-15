@@ -1,3 +1,21 @@
-Coming soon.
+Persistent roles is a feature that automatically adds the roles to a returning member that they had upon leaving the server.
 
-This documentation is open source, so feel free to write this page on our [Github](https://github.com/lucie-on-github/Lucie-Docs/edit/main/docs/persistent-roles.md).
+## Commands
+
+### /persistentroles toggle
+
+Toggle persistent roles on/off.
+
+<details><summary>Options</summary>
+
+- **State\***:
+	- On
+	- Off
+</details>
+
+<details><summary>Default permissions</summary>
+
+- **Manage roles**
+</details>
+
+?> Persistent roles does not support toggling individual roles. If you would like this feature to be added, please send us feedback in our [Discord server](https://lucie.gg/server).

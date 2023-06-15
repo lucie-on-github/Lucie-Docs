@@ -1,6 +1,4 @@
 :root {
-	--selection-color: #BF406A;
-
 	/* Base */
 	--base-background-color: #17181c;
 	--base-font-size: 18px;
@@ -14,20 +12,20 @@
 	--sidebar-background: #1f2023;
 	--sidebar-name-font-weight: 700;
 	--sidebar-name-font-family: var(--heading-font-family);
-	--navbar-root-color--hover: var(--selection-color);
-	--navbar-menu-link-color--hover: var(--selection-color);
+	--navbar-root-color--hover: var(--theme-color);
+	--navbar-menu-link-color--hover: var(--theme-color);
 	--navbar-menu-background: var(--sidebar-background);
 	--search-input-background-color: var(--base-background-color);
 	--zoomimage-overlay-background: rgba(0, 0, 0, 0.875);
 
 	/* Text elements */
 	--emoji-size: calc(var(--base-line-height) * 0.6em);
-	--blockquote-color: var(--selection-color);
+	--blockquote-color: var(--theme-color);
 	--code-inline-background: var(--sidebar-background);
 
 	/* Links */
-	--link-color: var(--selection-color);
-	--link-color--hover: var(--selection-color);
+	--link-color: var(--theme-color);
+	--link-color--hover: var(--theme-color);
 	--link-text-decoration: none;
 	--link-text-decoration--hover: underline;
 
@@ -42,9 +40,12 @@
 	--notice-tip-border-color: #5a67f2;
 
 	/* Tabs */
-	--docsifytabs-tab-highlight-color: var(--selection-color);
+	--docsifytabs-tab-highlight-color: var(--theme-color);
 	--docsifytabs-tab-background: var(--sidebar-background);
 	--docsifytabs-border-color: var(--mono-tint1);
+
+	/* Misc */
+	--selection-color: var(--theme-color);
 }
 
 @font-face {
@@ -85,4 +86,26 @@
 .sidebar-nav a {
 	font-family: var(--base-font-family);
 	font-weight: 400;
+}
+
+details {
+	opacity: 60%;
+}
+
+details > ul {
+	margin-top: 0 !important;
+	margin-left: 1rem !important;
+}
+
+summary {
+	padding: var(--sidebar-nav-pagelink-padding, var(--sidebar-nav-link-padding));
+	background: var(--sidebar-nav-pagelink-background);
+	list-style: none;
+	cursor: pointer;
+	user-select: none;
+}
+
+details[open] > summary {
+	--sidebar-nav-pagelink-background--active: no-repeat 0px center / 5px 6px linear-gradient(225deg, transparent 2.75px, var(--mono-tint1) 2.75px 4.25px, transparent 4.25px), no-repeat 5px center / 5px 6px linear-gradient(135deg, transparent 2.75px, var(--mono-tint1) 2.75px 4.25px, transparent 4.25px);
+	background: var(--sidebar-nav-pagelink-background--active, var(--sidebar-nav-pagelink-background--loaded, var(--sidebar-nav-pagelink-background)));
 }
