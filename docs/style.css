@@ -73,6 +73,10 @@
 	margin-left: var(--sidebar-nav-indent);
 }
 
+.sidebar-nav > ul > li > p > .app-sub-sidebar {
+	margin-left: calc(var(--sidebar-nav-indent) * 2);
+}
+
 .sidebar-nav p {
 	font-family: var(--heading-font-family);
 	font-weight: 700;
