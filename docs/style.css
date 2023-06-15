@@ -1,0 +1,84 @@
+:root {
+	--selection-color: #BF406A;
+
+	/* Base */
+	--base-background-color: #17181c;
+	--base-font-size: 18px;
+	--base-font-family: "whitneymedium", sans-serif;
+	--base-letter-spacing: 0.03rem;
+	--heading-font-family: "ginto",sans-serif;
+	--mono-hue: 0;
+	--mono-saturation: 0%;
+
+	/* Navigation */
+	--sidebar-background: #1f2023;
+	--sidebar-name-font-weight: 700;
+	--sidebar-name-font-family: var(--heading-font-family);
+	--navbar-root-color--hover: var(--selection-color);
+	--navbar-menu-link-color--hover: var(--selection-color);
+	--navbar-menu-background: var(--sidebar-background);
+	--search-input-background-color: var(--base-background-color);
+	--zoomimage-overlay-background: rgba(0, 0, 0, 0.875);
+
+	/* Text elements */
+	--emoji-size: calc(var(--base-line-height) * 0.6em);
+	--blockquote-color: var(--selection-color);
+	--code-inline-background: var(--sidebar-background);
+
+	/* Links */
+	--link-color: var(--selection-color);
+	--link-color--hover: var(--selection-color);
+	--link-text-decoration: none;
+	--link-text-decoration--hover: underline;
+
+	/* Tables */
+	--table-row-odd-background: #282a2e;
+	--table-row-even-background: var(--table-row-odd-background);
+	--table-cell-border-color: var(--base-background-color);
+
+	/* Notices */
+	--notice-important-background: #ed404325;
+	--notice-tip-background: #5a67f225;
+	--notice-tip-border-color: #5a67f2;
+
+	/* Tabs */
+	--docsifytabs-tab-highlight-color: var(--selection-color);
+	--docsifytabs-tab-background: var(--sidebar-background);
+	--docsifytabs-border-color: var(--mono-tint1);
+}
+
+@font-face {
+	font-family: "whitneymedium";
+	src: url("_media/fonts/whitneymedium.otf");
+}
+
+@font-face {
+	font-family: "ginto";
+	src: url("_media/fonts/ABCGintoNormalVariable-Trial.ttf")
+}
+
+.docsify-tabs__tab {
+	cursor: pointer;
+}
+
+.pagination-item a * {
+	text-decoration: inherit;
+}
+
+.sidebar-nav > ul > li > ul {
+	margin-left: 0;
+}
+
+.sidebar-nav > ul > li > p > a {
+	margin-left: var(--sidebar-nav-indent);
+}
+
+.sidebar-nav p {
+	font-family: var(--heading-font-family);
+	font-weight: 700;
+}
+
+.sidebar-nav a {
+	font-family: var(--base-font-family);
+	font-weight: 400;
+}
