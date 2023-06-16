@@ -39,8 +39,6 @@ This is the description.
 - **Administrator** (This means the command can only be run by admins by default.)
 </details>
 
-!> This example uses a new display system that may not be applied to all pages yet. Feel free to help us speed up the process on [GitHub](https://github.com/lucie-on-github/Lucie-Docs).
-
 ## Configuration
 
 To see all of Lucie's modules, use **/module list**. Individual modules can be enabled/disabled by using **/module enable** and **/module disable**. To get a list of all commands you can use, use **/help**.
