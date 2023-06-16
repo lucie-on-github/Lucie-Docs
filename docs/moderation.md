@@ -3,42 +3,39 @@
 !> These commands may require special permissions, like managing members and managing messages.
 
 ### /ban
-- **User\***: User to ban.
-- **Reason**: Reason for the ban.
-
 Ban a member.
 
-### /kick
-- **User\***: User to kick.
-- **Reason**: Reason for the kick.
+<details><summary>Options</summary>
 
+- **User\***: User to ban.
+- **Reason**: Reason for the ban.
+</details>
+
+### /kick
 Kick a member.
 
-### /mute
-- **User\***: User to mute.
-- **Duration\***: Duration of the mute. (e.g., 5m, 1h, 2d)
+<details><summary>Options</summary>
 
+- **User\***: User to kick.
+- **Reason**: Reason for the kick.
+</details>
+
+### /mute
 Mute a member.
 
-### /purge
-- **Amount**: The amount of messages to purge. (max.: 100, default: 1)
+<details><summary>Options</summary>
 
+- **User\***: User to mute.
+- **Duration\***: Duration of the mute. (e.g., 5m, 1h, 2d)
+</details>
+
+### /purge
 Purge messages in a channel.
 
-### /ticket
-Allows you to set up and use tickets systems.
+<details><summary>Options</summary>
 
-- **/ticket create**
-Create a new tickets system.
-
-- **/ticket delete**
-Delete an existing tickets system.
-
-- **/ticket edit**
-Edit an existing tickets system.
-
-- **/ticket list**
-List all existing tickets systems.
+- **Amount**: The amount of messages to purge. (max.: 100, default: 1)
+</details>
 
 ### /unban
 Unban a member.

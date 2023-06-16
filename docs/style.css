@@ -100,9 +100,13 @@ details > ul {
 summary {
 	padding: var(--sidebar-nav-pagelink-padding, var(--sidebar-nav-link-padding));
 	background: var(--sidebar-nav-pagelink-background);
-	list-style: none;
+	list-style-type: none;
 	cursor: pointer;
 	user-select: none;
+}
+
+summary::-webkit-details-marker {
+	display: none;
 }
 
 details[open] > summary {

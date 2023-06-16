@@ -1,10 +1,10 @@
-The auto-translations module includes automatic translations, flag translations and manual message translations.
+The auto-translations module includes automatic translations, flag translations, manual message translations and command translations.
 
 ## 1. Auto-translation
 
 Automatically replaces messages in foreign languages with a translated version in the form of a webhook.
 
-?> Auto-translation currently only supports English. Use flag translation for other languages.
+?> Auto-translation currently only supports English. Use flag or command translation for other languages.
 
 ## 2. Flag translation
 
@@ -28,4 +28,21 @@ In case auto-translation didn't work, you can manually translate a message by do
 
 <!-- tabs:end -->
 
-?> Manual translation currently only supports English. Use flag translation for other languages.
+?> Manual translation currently only supports English. Use flag or command translation for other languages.
+
+## 4. Command translation
+
+### /translate
+Translates a query from one language to another.
+
+<details><summary>Options</summary>
+
+- **Query\***: The query to translate.
+- **Language**: The flag of the language to translate the query to. (Must be a flag emoji.)
+  - For valid options: see [currently support flags list](#translation-flags).
+</details>
+
+## Commands
+
+### /translation flags
+Shows a list of the flags of all languages Lucie supports.

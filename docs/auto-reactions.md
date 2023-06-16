@@ -3,16 +3,24 @@ Auto-reactions are reactions that are automatically added to any new messages in
 ## Commands
 
 ### /autoreaction add
+Add an autoreaction to a channel.
+
+<details><summary>Options</summary>
+
 - **Channel\***: The channel in which the reactions will be added to messages. (Must be a normal text channel or an announcements channel)
 - **Emoji\***: The emoji to react with (to add multiple: separate them by commas, e.g.: ✅,❌)
+</details>
 
-Add an autoreaction.
 
 ### /autoreaction remove
+Remove an autoreaction from a channel.
+
+<details><summary>Options</summary>
+
 - **Channel\***: The channel in which the reactions were supposed to be added to messages.
 - **Emoji\***: The emoji that was supposed to be reacted with.
+</details>
 
-Remove an autoreaction.
 
 ### /autoreaction list
 List all autoreactions in this server.

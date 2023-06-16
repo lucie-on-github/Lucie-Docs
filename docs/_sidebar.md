@@ -11,6 +11,7 @@
 - Moderation
 
    - [Moderation](moderation.md)
+	- [Tickets](tickets.md)
    - [Logs](logs.md)
 
 - Fun

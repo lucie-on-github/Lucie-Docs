@@ -1,6 +1,10 @@
 ## Commands
 
 ### /bored
+Gives you an activity to kill time. You can look for activities with a specific amount of participants or from a certain category.
+
+<details><summary>Options</summary>
+
 - **Type**: The type of activity.
    - Educational
    - Recreational
@@ -12,21 +16,27 @@
    - Music
    - Busywork
 - **Participants**: The amount of participants. (min.: 0)
-
-Gives you an activity to kill time. You can look for activities with a specific amount of participants or from a certain category.
+</details>
 
 ### /joke
-- **Category**: The category of the joke.
+Generates a random joke. NSFW and explicit jokes will be excluded in channels that are not marked as NSFW.
+
+<details><summary>Options</summary>
+
+- **Category**
    - Programming
    - Miscellaneous
    - Dark
    - Pun
    - Spooky
    - Christmas
-
-Generates a random joke. NSFW and explicit jokes will be excluded in channels that are not marked as NSFW.
+</details>
 
 ### /number
+Generates a random number.
+
+<details><summary>Options</summary>
+
 - **Fact**: The type of fact about the number to include.
    - Random
    - Trivia
@@ -35,17 +45,19 @@ Generates a random joke. NSFW and explicit jokes will be excluded in channels th
    - Math
 - **Min**: The minimum number.
 - **Max**: The maximum  number.
-
-Generates a random number.
+</details>
 
 ?> Tip: You can set the "fact" option to make Lucie include a fun fact!
 
 ### /uwuify
+Uwuify a text.
+
+<details><summary>Options</summary>
+
 - **Text\***: The text to uwuify or a message link.
 - **Faces**: The treshold for uwu faces.
 - **Actions**: The treshold for uwu actions.
 - **Stutters**: The treshold for uwu stutters.
-
-Uwuify a text.
+</details>
 
 ?> Tip: You can raise all tresholds to 1 for more uwu.

@@ -8,15 +8,21 @@ Each member can gain between 5 and 20 chat points per message with a cooldown of
 Get the users with the most chat points in this server.
 
 ### /level
-- **User**: User to get the level of.
+Get the current level and chat points of a user. Leave the user option blank to select yourself.
 
-Get the current level and chat points of a user.
+<details><summary>Options</summary>
+
+- **User**: User to get the level of.
+</details>
 
 ### /settings levels
+Configure settings related to levels/chat points.
+
+<details><summary>Options</summary>
+
 - **Option**: The option to configure.
   -  Channel for notifications when a user levels up.
 - **Channel**: The channel to set the option to.
-
-Configure settings related to levels/chat points.
+</details>
 
 ?> This command is planned to be reworked in the near future.
