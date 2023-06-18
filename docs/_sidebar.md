@@ -1,4 +1,5 @@
 - [Getting Started](getting-started.md)
+- [Context menu](context-menu.md)
 
 - Automation
 
