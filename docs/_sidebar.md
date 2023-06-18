@@ -7,6 +7,7 @@
    - [Persistent roles](persistent-roles.md)
    - [Auto-reactions](auto-reactions.md)
    - [Reaction-roles](reaction-roles.md)
+   - [Auto-roles](auto-roles.md)
 
 - Moderation
 
@@ -20,5 +21,6 @@
    - [Media](media.md)
    - [Starboard](starboard.md)
    - [Generators](generators.md)
+   - [Chat bot](chat-bot.md)
 
 <footer id="mb-footer"></footer>
