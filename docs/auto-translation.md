@@ -43,6 +43,6 @@ Shows a list of the flags you can use to reference a language.
 
 !> Lucie supports a lot more languages than just the ones from this list. Auto-translations can translate messages from any language that Lucie supports, while other translation methods like reaction translations and setting the server's language are restricted to the corresponding languages of these flags.  
 
-## /autotranslation blacklist
+### /autotranslation blacklist
 
-## /autotranslation language
+### /autotranslation language
