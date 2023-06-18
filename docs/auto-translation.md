@@ -22,7 +22,7 @@ In case auto-translation didn't work, you can manually translate a message by op
 
 See [How to use context menu commands](context-menu) for more details.
 
-Manual trandlations will always try to translate messages to the server's language.
+Manual translations will always try to translate messages to the server's language.
 
 ## 4. Command translation
 
