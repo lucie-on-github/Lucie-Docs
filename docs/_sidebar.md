@@ -1,6 +1,5 @@
 - [Getting Started](getting-started.md)
 - [Context menu](context-menu.md)
-- [Lucie Midnight](midnight.md)
 
 - Automation
 	- [Auto-translation](auto-translation.md)
