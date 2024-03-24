@@ -1,4 +1,4 @@
-The auto-translations module includes automatic translations, flag translations, manual message translations and command translations.
+The translations module includes automatic translations, flag translations, manual message translations and command translations.
 
 ?> Auto-translation and manual translations always use the server's language.
 
@@ -44,5 +44,26 @@ Shows a list of the flags you can use to reference a language.
 !> Lucie supports a lot more languages than just the ones from this list. Auto-translations can translate messages from any language that Lucie supports, while other translation methods like reaction translations and setting the server's language are restricted to the corresponding languages of these flags.  
 
 ### /autotranslation blacklist
+Blacklist certain queries so they don't get auto-translated.
+
+<details><summary>Options</summary>
+
+- **Action\***: The action to perform on the query. (Add/Remove/List)
+- **Query**: The query to add to/remove from the blacklist.
+</details>
 
 ### /autotranslation language
+Sets the language for auto-translation.
+
+<details><summary>Options</summary>
+
+- **Flag\***: The flag of the language to set auto-translation to.
+</details>
+
+### /autotranslation preserve
+Preserve the original message after translating it.
+
+<details><summary>Options</summary>
+
+- **Enabled\***: Whether original messages should be preserved. (True/False)
+</details>

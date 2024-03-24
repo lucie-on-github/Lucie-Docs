@@ -1,3 +1,26 @@
-This page is coming soon.
+Auto-roles are roles that are automatically assigned to certain members. Auto-roles can be assigned to humans, bots or both.
 
-This documentation is open source, so feel free to write this page on our [Github](https://github.com/lucie-on-github/Lucie-Docs/edit/main/docs/auto-roles.md).
+## Commands
+
+### /autorole add
+Add an auto-role.
+
+<details><summary>Options</summary>
+
+- **Role\***: The role that will be automatically assigned to new members
+- **Type\***: The type of members to receive this role
+</details>
+
+
+### /autorole remove
+Remove an autoreaction from a channel.
+
+<details><summary>Options</summary>
+
+- **Role\***: The role that will be automatically assigned to new members
+- **Type\***: The type of members to receive this role
+</details>
+
+
+### /autorole list
+List all auto-roles in this server.

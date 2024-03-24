@@ -44,19 +44,3 @@ This is the description.
 To see all of Lucie's modules, use **/module list**. Individual modules can be enabled/disabled by using **/module enable** and **/module disable**. To get a list of all commands you can use, use **/help**.
 
 ?> **/help** will return a different list of commands depending on the current context (a server or DMs). It might not show you all of Lucie's available commands.
-
-## FAQ
-
-### There is missing/wrong information in this documentation.
-
-Writing documentation and mainting a bot takes time. So it's normal that this documentation is a bit behind on Lucie's features. We do our best to try and keep this documentation as up-to-date as possible but we're mere humans. Feel free to help us by contributing to this documentation on [GitHub](https://github.com/lucie-on-github/Lucie-Docs).
-
-### Lucie's messages contain obscure content
-
-Are you seeing something like :Checkmark: or :Cross:? This means Lucie is missing the permission to use external emojis. Check your channel and role settings to make sure Lucie has this permission.
-
-Are you seeing "undefined"? This is an error. Please report it in our [support server](https://lucie.gg/server).
-
-### "Application didn't respond"
-
-If you see this message, it means Lucie has either run into an uncaught error or crashed. If you see this, please notify us about it in our [support server](https://lucie.gg/server) so we can quickly resolve the issue!

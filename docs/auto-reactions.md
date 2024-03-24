@@ -3,7 +3,7 @@ Auto-reactions are reactions that are automatically added to any new messages in
 ## Commands
 
 ### /autoreaction add
-Add an autoreaction to a channel.
+Add an auto-reaction to a channel.
 
 <details><summary>Options</summary>
 
@@ -13,7 +13,7 @@ Add an autoreaction to a channel.
 
 
 ### /autoreaction remove
-Remove an autoreaction from a channel.
+Remove an auto-reaction from a channel.
 
 <details><summary>Options</summary>
 
@@ -23,4 +23,4 @@ Remove an autoreaction from a channel.
 
 
 ### /autoreaction list
-List all autoreactions in this server.
+List all auto-reactions in this server.

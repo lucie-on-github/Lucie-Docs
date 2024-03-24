@@ -1,1 +1,0 @@
-This module is a work-in-progress. It is going to feature automated messages and advanced triggers. Join our [Discord server](https://lucie.gg/server) to stay up-to-date!

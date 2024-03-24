@@ -70,6 +70,10 @@
 	margin-left: 0;
 }
 
+.sidebar-nav > ul > li > p:only-child {
+	margin: 0;
+}
+
 .sidebar-nav > ul > li > p > a {
 	margin-left: var(--sidebar-nav-indent);
 }
