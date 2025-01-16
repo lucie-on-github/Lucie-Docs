@@ -2,6 +2,9 @@ A list of miscellaneous commands.
 
 ## Commands
 
+### /welcome
+Create welcome messages for new members of your server.
+
 ### /advice
 Sends you random advice.
 
