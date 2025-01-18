@@ -1,1 +1,0 @@
-A collection of commands related to images and videos.

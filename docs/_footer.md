@@ -1,1 +1,0 @@
-Copyright © 2023 [Lucie](https://lucie.gg/)
