@@ -2,6 +2,47 @@ A list of miscellaneous commands.
 
 ## Commands
 
+## /welcome
+The `/welcome` Commands Creates welcome messages for new members of your server.
+
+
+
+### /welcome random
+- **Description:**  
+  Generates a random welcome message for new users.
+
+- **Options:**
+  - **greeting [greeting]\*** : The greeting to use in the welcome message (e.g., "Hello!", "Welcome!").
+  - **emoji [emoji]\*** : An optional emoji to add to the message (e.g., ":wave:", ":smile:").
+
+
+
+### /welcome custom
+- **Description:**  
+  Allows you to create a custom welcome message for new users.
+
+- **Options:**
+  - **message [message]\*** : The custom message to display for new users.
+  - **username [username]\*** : Optionally include the username of the person being welcomed in the message.
+
+
+
+### /welcome info
+- **Description:**  
+  Displays information about the current welcome message settings, including any active configurations.
+
+- **Options:**
+  - **verbose\*** : Provides additional details about the current configuration, such as the message template or emoji settings.
+
+
+
+### /welcome disable
+- **Description:**  
+  Disables the welcome message feature for new users.
+
+- **Options:**
+  - **Confirm\*** : Required to confirm disabling the welcome feature.
+
 ### /advice
 Sends you random advice.
 
