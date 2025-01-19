@@ -5,6 +5,7 @@ import starlightLinksValidatorPlugin from "starlight-links-validator";
 
 // https://astro.build/config
 export default defineConfig({
+	site: "https://docs.lucie.gg/",
 	server: {
 		port: 3000,
 	},
