@@ -19,7 +19,7 @@
 	--sl-nav-height: 4.5rem;
 }
 
-:root[data-theme='light'] {
+:root[data-theme="light"] {
 	--sl-color-accent-low: hsl(340, 50%, 65%);
 	--sl-color-accent: hsl(340, 50%, 50%);
 	--sl-color-accent-high: hsl(340, 50%, 35%);

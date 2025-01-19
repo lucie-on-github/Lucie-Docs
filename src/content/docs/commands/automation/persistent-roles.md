@@ -14,8 +14,8 @@ Toggle persistent roles on/off.
 <details><summary>Options</summary>
 
 - **State\***:
- 	- On
- 	- Off
+  - On
+  - Off
 
 </details>
 
