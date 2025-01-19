@@ -1,0 +1,48 @@
+:root {
+	--sl-color-accent-low: hsl(340, 50%, 35%);
+	--sl-color-accent: hsl(340, 50%, 50%);
+	--sl-color-accent-high: hsl(340, 50%, 65%);
+	--sl-color-white: hsl(0, 0%, 100%);
+	--sl-color-gray-1: hsl(0, 0%, 75%);
+	--sl-color-gray-2: hsl(0, 0%, 60%);
+	--sl-color-gray-3: hsl(0, 0%, 40%);
+	--sl-color-gray-4: hsl(220, 7%, 17%);
+	--sl-color-gray-5: hsl(220, 7%, 17%);
+	--sl-color-gray-6: hsl(220, 7%, 13%);
+	--sl-color-black: hsl(225, 8%, 10%);
+
+	--sl-font: "whitneymedium", sans-serif;
+
+	--box-shadow: 0.25rem 0.25rem 0.125rem 0 rgba(0, 0, 0, 35%);
+  	--box-shadow-down: 0 0.25rem 0.125rem 0 rgba(0, 0, 0, 35%);
+
+	--sl-nav-height: 4.5rem;
+}
+
+:root[data-theme='light'] {
+	--sl-color-accent-low: hsl(340, 50%, 65%);
+	--sl-color-accent: hsl(340, 50%, 50%);
+	--sl-color-accent-high: hsl(340, 50%, 35%);
+	--sl-color-white: hsl(225, 8%, 10%);
+	--sl-color-gray-1: hsl(220, 7%, 13%);
+	--sl-color-gray-2: hsl(220, 7%, 17%);
+	--sl-color-gray-3: hsl(220, 7%, 17%);
+	--sl-color-gray-4: hsl(0, 0%, 40%);
+	--sl-color-gray-5: hsl(0, 0%, 60%);
+	--sl-color-gray-6: hsl(0, 0%, 75%);
+	--sl-color-gray-7: hsl(0, 0%, 100%);
+	--sl-color-black: hsl(0, 0%, 100%);
+}
+
+html {
+	font-size: 16px;
+}
+
+h1, h2, h3, h4, h5, h6, .group-label {
+	font-family: "ginto", sans-serif;
+}
+
+header.header {
+	border-bottom: none;
+	box-shadow: var(--box-shadow-down);
+}

@@ -1,0 +1,6 @@
+---
+title: Auto-responses
+description: Auto-responses are automatic messages that are sent when a member sends a certain keyword/keyphrase.
+---
+
+Auto-responses are automatic messages that are sent when a member sends a certain keyword/keyphrase.
