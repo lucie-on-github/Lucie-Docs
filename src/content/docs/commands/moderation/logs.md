@@ -5,47 +5,85 @@ description: Send logs for certain events in specified channels to keep track of
 
 Send logs for certain events in specified channels to keep track of server activity.
 
-## Events
-
-- Message delete
-- Message edit
-- Member join
-- Member leave
-- Roles update
-- Nickname update
-- Ban
-- Unban
-- Message bulk delete
-- Channel create
-- Channel delete
-- Channel update
-
 ## Commands
 
-### /logs enable
+### /logs
 
-Enable a log event.
+Allows you to set up logs to keep track of all kinds of server events.
 
-:::caution
-After using this command, Lucie will ask you to specify a channel.
-:::
+<details><summary>Default required permissions</summary>
 
-<details><summary>Options</summary>
-
-- **Event\***: The log event. (One of the events in the list above)
+- **Manage roles**
 
 </details>
 
-### /logs disable
+#### /logs enable
 
-Disable a log event.
+Enable a log event
 
 <details><summary>Options</summary>
 
-- **Event\***: The log event. (One of the events in the list above)
+- **event\***: The log event
+  - Message delete
+  - Message edit
+  - Member join
+  - Member leave
+  - Roles update
+  - Nickname update
+  - Ban
+  - Unban
+  - Message bulk delete
+  - Channel create
+  - Channel delete
+  - Channel update
 
 </details>
 
-### /logs list
+#### /logs disable
 
-List all enabled logs.
+Disable a log event
+
+<details><summary>Options</summary>
+
+- **event\***: The log event
+  - Message delete
+  - Message edit
+  - Member join
+  - Member leave
+  - Roles update
+  - Nickname update
+  - Ban
+  - Unban
+  - Message bulk delete
+  - Channel create
+  - Channel delete
+  - Channel update
+
+</details>
+
+#### /logs move
+
+Move a log event
+
+<details><summary>Options</summary>
+
+- **event\***: The log event
+  - Message delete
+  - Message edit
+  - Member join
+  - Member leave
+  - Roles update
+  - Nickname update
+  - Ban
+  - Unban
+  - Message bulk delete
+  - Channel create
+  - Channel delete
+  - Channel update
+- **channel\***: The channel to move the log event to
+
+</details>
+
+#### /logs list
+
+Lists all enabled logs

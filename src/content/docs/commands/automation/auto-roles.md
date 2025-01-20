@@ -7,28 +7,44 @@ Auto-roles are roles that are automatically assigned to certain members. Auto-ro
 
 ## Commands
 
-### /autorole add
+### /autorole
 
-Add an auto-role.
+Allows you to set up roles that are automatically given when someone joins.
 
-<details><summary>Options</summary>
+<details><summary>Default required permissions</summary>
 
-- **Role\***: The role that will be automatically assigned to new members
-- **Type\***: The type of members to receive this role
-
-</details>
-
-### /autorole remove
-
-Remove an autoreaction from a channel.
-
-<details><summary>Options</summary>
-
-- **Role\***: The role that will be automatically assigned to new members
-- **Type\***: The type of members to receive this role
+- **Manage roles**
 
 </details>
 
-### /autorole list
+#### /autorole add
 
-List all auto-roles in this server.
+Add an autorole
+
+<details><summary>Options</summary>
+
+- **role\***: The role that will be automatically added to new members
+- **type\***: The type of members to receive this role
+  - Humans
+  - Bots
+  - All
+
+</details>
+
+#### /autorole remove
+
+Remove an autorole
+
+<details><summary>Options</summary>
+
+- **role\***: The autorole to remove
+- **type\***: The type of members that were supposed to receive this role
+  - Humans
+  - Bots
+  - All
+
+</details>
+
+#### /autorole list
+
+List all autoroles in this server

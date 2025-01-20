@@ -32,23 +32,46 @@ The title, panel text and panel button will be the first things a member sees be
 
 ## Commands
 
-### /ticket create
+### /ticket
 
-<details><summary>Options</summary>
+Allows you to set up and use tickets systems.
 
-- **Channel\***: The channel of the tickets system.
-</details>
-### /ticket delete
+<details><summary>Default required permissions</summary>
 
+- **Manage roles**
 
-<details><summary>Options</summary>
-- **Channel\***: The channel of the tickets system.
 </details>
 
-### /ticket edit
+#### /ticket create
+
+Create a new tickets system
 
 <details><summary>Options</summary>
 
-- **Channel\***: The channel of the tickets system.
+- **channel\***: The channel for the tickets system
 
-### /ticket list
+</details>
+
+#### /ticket edit
+
+Edit an existing tickets system
+
+<details><summary>Options</summary>
+
+- **channel\***: The channel of the tickets system
+
+</details>
+
+#### /ticket list
+
+List all existing tickets systems
+
+#### /ticket delete
+
+Delete an existing tickets system
+
+<details><summary>Options</summary>
+
+- **channel\***: The channel of the tickets system
+
+</details>

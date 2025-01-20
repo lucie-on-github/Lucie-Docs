@@ -15,26 +15,89 @@ Get the users with the most chat points in this server.
 
 ### /level
 
-Get the current level and chat points of a user. Leave the user option blank to select yourself.
+Get the current level and chat points of a user.
 
 <details><summary>Options</summary>
 
-- **User**: User to get the level of.
+- **user**: User to get the level of
 
 </details>
 
-### /settings levels
+### /levels
 
-Configure settings related to levels/chat points.
+Configure levels settings for this server.
+
+<details><summary>Default required permissions</summary>
+
+- **Manage roles**
+
+</details>
+
+#### /levels channel
+
+Set the channel for level-up notifications.
 
 <details><summary>Options</summary>
 
-- **Option**: The option to configure.
-  - Channel for notifications when a user levels up.
-- **Channel**: The channel to set the option to.
+- **channel\***: Channel to send notifications in whenever a member levels up.
 
 </details>
 
-:::caution
-This command is planned to be reworked in the near future.
-:::
+#### /levels notifications
+
+Enable/disable level-up notifications.
+
+<details><summary>Options</summary>
+
+- **enable\***: Send level-up notifications.
+
+</details>
+
+#### /levels info
+
+Shows information about levels settings of this server.
+
+### /rank
+
+Lets you configura role rewards for chat points.
+
+<details><summary>Default required permissions</summary>
+
+- **Manage roles**
+
+</details>
+
+#### /rank add
+
+Adds a new rank reward.
+
+<details><summary>Options</summary>
+
+- **level\***: The required level to gain this rank.
+- **role\***: The reward of this rank.
+
+</details>
+
+#### /rank remove
+
+Removes a rank reward.
+
+<details><summary>Options</summary>
+
+- **role\***: The reward of this rank.
+
+</details>
+
+#### /rank list
+
+Lists all rank rewards in this server.
+
+#### /rank stack
+
+Lets you toggle whether members keep their previous rank rewards.
+
+<details><summary>Options</summary>
+
+- **enable\***: Whether to enable or disable rank reward stacking.
+
+</details>

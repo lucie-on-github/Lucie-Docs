@@ -9,34 +9,38 @@ Trackers are automatically updated whenever a member leaves or a new member join
 
 ## Commands
 
+### /tracker
+
+Allows you to set up tracker channels to keep track of server statistics.
+
 <details><summary>Default required permissions</summary>
 
 - **Manage channels**
 
 </details>
 
-### /tracker create
+#### /tracker create
 
-Create a new tracker.
+Create a new tracker
 
 <details><summary>Options</summary>
 
-- **Channel\***: Channel to link to the tracker.
-- **Type\***: The type of the tracker.
+- **channel\***: Channel to link to the tracker
+- **type\***: The type of the tracker
   - Member count (including bots)
   - Bot count
   - Human count
 
 </details>
 
-### /tracker edit
+#### /tracker edit
 
-Edit an existing tracker.
+Edit an existing tracker
 
-### /tracker delete
+#### /tracker delete
 
-Delete an existing tracker.
+Delete an existing tracker
 
-### /tracker list
+#### /tracker list
 
-List all existing trackers.
+List all existing trackers

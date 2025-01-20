@@ -33,55 +33,108 @@ Manual translations will always try to translate messages to the server's langua
 
 ## 4. Command translation
 
+See [/translate](#translate) for more information.
+
+## Commands
+
+### /autotranslation
+
+Lets you configure auto-translation.
+
+<details><summary>Default required permissions</summary>
+
+- **Manage roles**
+
+</details>
+
+#### /autotranslation blacklist
+
+Blacklist certain queries so they don't get auto-translated.
+
+<details><summary>Options</summary>
+
+- **action\***: The action to perform on the query.
+  - Remove
+  - Add
+  - List
+- **query**: The query to add/remove to the blacklist.
+
+</details>
+
+#### /autotranslation language
+
+Sets the language for auto-translation.
+
+<details><summary>Options</summary>
+
+- **id\***: The flag or code of the language to translate the query to.
+
+</details>
+
+#### /autotranslation channel
+
+Adds/removes an override for auto-translation language of a channel.
+
+<details><summary>Options</summary>
+
+- **channel\***: Channel to add an override in
+- **id**: The flag or code of the language to. Leave empty to remove an override
+
+</details>
+
+#### /autotranslation preserve
+
+Preserve the original message after translating it.
+
+<details><summary>Options</summary>
+
+- **enable\***: Whether original messages should be preserved.
+
+</details>
+
+#### /autotranslation info
+
+Shows information about auto-translation settings of this server.
+
+#### /autotranslation enable
+
+Enables auto-translation in this server.
+
+#### /autotranslation disable
+
+Disables auto-translation in this server.
+
 ### /translate
 
 Translates a query from one language to another.
 
 <details><summary>Options</summary>
 
-- **Query\***: The query to translate.
-- **Language**: The flag of the language to translate the query to. (Must be a flag emoji.)
-  - For valid options: see [currently support flags list](#translation-flags).
+- **query\***: The query to translate.
+- **language**: The flag or code of the language to translate the query to.
 
 </details>
 
-## Commands
+### /translation
 
-### /translation flags
+Shows information about Lucie's translation features.
 
-Shows a list of the flags you can use to reference a language.
+<details><summary>Default required permissions</summary>
 
-:::note
-Lucie supports a lot more languages than just the ones from this list. Auto-translations can translate messages from any language that Lucie supports, while other translation methods like reaction translations and setting the server's language are restricted to the corresponding languages of these flags.
-:::
-
-### /autotranslation blacklist
-
-Blacklist certain queries so they don't get auto-translated.
-
-<details><summary>Options</summary>
-
-- **Action\***: The action to perform on the query. (Add/Remove/List)
-- **Query**: The query to add to/remove from the blacklist.
+- **Manage roles**
 
 </details>
 
-### /autotranslation language
+#### /translation flags
 
-Sets the language for auto-translation.
+Shows a list of all flags that are linked to languages.
 
-<details><summary>Options</summary>
+#### /translation hide
 
-- **Flag\***: The flag of the language to set auto-translation to.
-
-</details>
-
-### /autotranslation preserve
-
-Preserve the original message after translating it.
+Hides the output of manual translations.
 
 <details><summary>Options</summary>
 
-- **Enabled\***: Whether original messages should be preserved. (True/False)
+- **enabled\***: Whether output of manual translations should be hidden.
 
 </details>

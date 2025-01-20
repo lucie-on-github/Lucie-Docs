@@ -6,11 +6,11 @@ title: Generators
 
 ### /bored
 
-Gives you an activity to kill time. You can look for activities with a specific amount of participants or from a certain category.
+Gives you an activity to kill time.
 
 <details><summary>Options</summary>
 
-- **Type**: The type of activity.
+- **type**: The type of activity
   - Educational
   - Recreational
   - Social
@@ -20,20 +20,23 @@ Gives you an activity to kill time. You can look for activities with a specific 
   - Relaxation
   - Music
   - Busywork
-- **Participants**: The amount of participants. (min.: 0)
+- **participants**: The amount of participants
 
 </details>
 
+### /coinflip
+
+Flip a coin.
+
 ### /joke
 
-Generates a random joke. NSFW and explicit jokes will be excluded in channels that are not marked as NSFW.
+Generates a random joke.
 
 <details><summary>Options</summary>
 
-- **Category**
+- **category**: The category of the joke.
   - Programming
   - Miscellaneous
-  - Dark
   - Pun
   - Spooky
   - Christmas
@@ -42,18 +45,18 @@ Generates a random joke. NSFW and explicit jokes will be excluded in channels th
 
 ### /number
 
-Generates a random number.
+Generate a random number
 
 <details><summary>Options</summary>
 
-- **Fact**: The type of fact about the number to include.
+- **fact**: The type of fact about the number to include
   - Random
   - Trivia
   - Year
   - Date
   - Math
-- **Min**: The minimum number.
-- **Max**: The maximum  number.
+- **min**: The minimum number
+- **max**: The maximum number
 
 </details>
 
@@ -67,10 +70,10 @@ Uwuify a text.
 
 <details><summary>Options</summary>
 
-- **Text\***: The text to uwuify or a message link.
-- **Faces**: The treshold for uwu faces.
-- **Actions**: The treshold for uwu actions.
-- **Stutters**: The treshold for uwu stutters.
+- **text\***: The text to uwuify or a message link.
+- **faces**: The treshold for uwu faces.
+- **actions**: The treshold for uwu actions.
+- **stutters**: The treshold for uwu stutters.
 
 </details>
 

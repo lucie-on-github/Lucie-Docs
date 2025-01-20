@@ -7,21 +7,25 @@ Persistent roles is a feature that automatically adds the roles to a returning m
 
 ## Commands
 
-### /persistentroles toggle
+### /persistentroles
+
+Allows you to set up persistent roles that persist when a member leaves and joins back.
+
+<details><summary>Default required permissions</summary>
+
+- **Manage roles**
+
+</details>
+
+#### /persistentroles toggle
 
 Toggle persistent roles on/off.
 
 <details><summary>Options</summary>
 
-- **State\***:
- 	- On
- 	- Off
-
-</details>
-
-<details><summary>Default required permissions</summary>
-
-- **Manage roles**
+- **state\***: On or off
+  - On
+  - Off
 
 </details>
 

@@ -2,6 +2,41 @@
 title: Reaction-roles
 ---
 
-This page is coming soon.
+## Commands
 
-This documentation is open source, so feel free to write this page on our [Github](https://github.com/lucie-on-github/Lucie-Docs/edit/main/docs/reaction-roles.md).
+### /reactionrole
+
+Allows you to set up reaction roles.
+
+<details><summary>Default required permissions</summary>
+
+- **Manage roles**
+
+</details>
+
+#### /reactionrole add
+
+Add a reaction role
+
+<details><summary>Options</summary>
+
+- **message\***: A link to the message which the reaction role should be assigned to.
+- **emoji\***: The emoji that users needs to react with to get the role.
+- **role\***: The role to be given when users react with the emoji.
+
+</details>
+
+#### /reactionrole remove
+
+Remove a reaction role
+
+<details><summary>Options</summary>
+
+- **message\***: A link to the message which the reaction role was assigned to.
+- **emoji\***: The emoji that users were supposed to react with to get the role.
+
+</details>
+
+#### /reactionrole list
+
+List all reaction roles
