@@ -39,46 +39,35 @@ export default defineConfig({
 				{ label: "Home", link: "/" },
 				{
 					label: "Info",
-					items: [
-						{ label: "Getting started", slug: "info/getting-started" },
-						{ label: "FAQ", slug: "info/faq" },
-						{ label: "Context menu", slug: "info/context-menu" },
-					]
+					autogenerate: {
+						directory: "info",
+					},
 				},
 				{
-					label: "Commands",
+					label: "Modules",
 					items: [
 						{
 							label: "Automation",
-							items: [
-								{ label: "Translation", slug: "commands/automation/translation" },
-								{ label: "Trackers", slug: "commands/automation/trackers" },
-								{ label: "Persistent roles", slug: "commands/automation/persistent-roles" },
-								{ label: "Auto-reactions", slug: "commands/automation/auto-reactions" },
-								{ label: "Reaction-roles", slug: "commands/automation/reaction-roles" },
-								{ label: "Auto-roles", slug: "commands/automation/auto-roles" },
-								{ label: "Auto-responses", slug: "commands/automation/auto-responses" },
-							]
+							autogenerate: {
+								directory: "modules/automation",
+							},
 						},
 						{
 							label: "Moderation",
-							items: [
-								{ label: "Moderation", slug: "commands/moderation/moderation" },
-								{ label: "Tickets", slug: "commands/moderation/tickets" },
-								{ label: "Logs", slug: "commands/moderation/logs" },
-							]
+							autogenerate: {
+								directory: "modules/moderation",
+							},
 						},
 						{
 							label: "Fun",
-							items: [
-								{ label: "Chat points", slug: "commands/fun/chat-points" },
-								{ label: "Games", slug: "commands/fun/games" },
-								{ label: "Generators", slug: "commands/fun/generators" },
-								{ label: "Media", slug: "commands/fun/media" },
-								{ label: "Starboard", slug: "commands/fun/starboard" },
-							]
+							autogenerate: {
+								directory: "modules/fun",
+							},
 						},
-						{ label: "Misc", slug: "commands/misc" },
+						{
+							label: "Misc",
+							slug: "modules/misc"
+						}
 					],
 				},
 			],

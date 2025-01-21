@@ -19,12 +19,12 @@ hero:
       variant: minimal
 ---
 
-import { LinkCard, CardGrid } from "@astrojs/starlight/components";
 import DirectoryList from "../../components/DirectoryList.astro";
+import Redirects from "../../components/Redirects.astro";
 
 ## Modules
 
-<DirectoryList path="commands/"/>
+<DirectoryList path="modules/" />
 
 ## Support
 
@@ -33,3 +33,5 @@ For any questions, requests or bug reports related to Lucie or this documentatio
 ## Donate
 
 You can support Lucie by becoming a [patron](https://lucie.gg/patreon).
+
+<Redirects />

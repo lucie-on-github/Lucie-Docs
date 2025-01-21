@@ -1,0 +1,28 @@
+<script>
+	const redirects: Record<string, string> = {
+		"#/getting-started": "/info/getting-started",
+		"#/faq": "/info/faq",
+		"#/context-menu": "/info/context-menu",
+		"#/translation": "/modules/automation/translation",
+		"#/trackers": "/modules/automation/trackers",
+		"#/persistent-roles": "/modules/automation/persistent-roles",
+		"#/auto-reactions": "/modules/automation/auto-reactions",
+		"#/reaction-roles": "/modules/automation/reaction-roles",
+		"#/auto-roles": "/modules/automation/auto-roles",
+		"#/auto-responses": "/modules/automation/auto-responses",
+		"#/moderation": "/modules/moderation/moderation",
+		"#/tickets": "/modules/moderation/tickets",
+		"#/logs": "/modules/moderation/logs",
+		"#/chat-points": "/modules/fun/chat-points",
+		"#/games": "/modules/fun/games",
+		"#/media": "/modules/fun/media",
+		"#/starboard": "/modules/fun/starboard",
+		"#/generators": "/modules/fun/generators",
+	};
+
+	const hash = window.location.hash;
+
+	if (hash && Object.keys(redirects).includes(hash)) {
+		window.location.href = redirects[hash];
+	}
+</script>
